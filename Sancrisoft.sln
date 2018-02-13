@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sancrisoft", "Sancrisoft\Sancrisoft.csproj", "{A636AC39-5A1F-4337-A181-8795DDD01B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sancrisoft.Tests", "Sancrisoft.Tests\Sancrisoft.Tests.csproj", "{9F4257C4-F0E1-4ED3-8925-460E5488E8AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A636AC39-5A1F-4337-A181-8795DDD01B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A636AC39-5A1F-4337-A181-8795DDD01B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A636AC39-5A1F-4337-A181-8795DDD01B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A636AC39-5A1F-4337-A181-8795DDD01B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4257C4-F0E1-4ED3-8925-460E5488E8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4257C4-F0E1-4ED3-8925-460E5488E8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4257C4-F0E1-4ED3-8925-460E5488E8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4257C4-F0E1-4ED3-8925-460E5488E8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6426518C-63B6-40D5-9F88-D8A705999F82}
+	EndGlobalSection
+EndGlobal

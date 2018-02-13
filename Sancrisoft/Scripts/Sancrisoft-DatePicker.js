@@ -1,0 +1,5 @@
+﻿$(function () {
+	$("#FechaNacimiento").datepicker();
+});
+
+

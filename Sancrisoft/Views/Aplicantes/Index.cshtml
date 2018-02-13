@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Sancrisoft.Models.Aplicantes>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Cargos.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombres)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Apellidos)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UrlFoto)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cargos.Descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombres)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Apellidos)
+        </td>
+		<td>
+			@if(item.UrlFoto != null)
+			{
+			  <img src="@Url.Content(item.UrlFoto)" alt="@item.IdAplicante" />
+            }      
+		</td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdAplicante }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdAplicante }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdAplicante })
+        </td>
+    </tr>
+}
+
+</table>
